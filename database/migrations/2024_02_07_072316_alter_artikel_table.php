@@ -13,7 +13,7 @@ return new class extends Migration
      */
     public function up(): void
     {
-        schema::table('artikel', function(Blueprint $table){
+        schema::table('article', function(Blueprint $table){
             $table->longText('content');
         });
         
