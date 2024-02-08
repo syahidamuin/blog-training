@@ -29,7 +29,8 @@
                     <p><a href="#">{{$article->kategori}}</a></p>
                     <p>{!! $article->content !!}</p>
                 </div><!-- /.blog-post -->
-
+                
+            <!-- /.blog-post -->
                 <nav class="blog-pagination">
                     <a class="btn btn-outline-primary" href="{{route('landing')}}">Kembali</a>
                     @if(Auth::check())
