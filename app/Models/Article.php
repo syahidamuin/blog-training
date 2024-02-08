@@ -11,7 +11,7 @@ class Article extends Model
 
     //extra config
 
-    protected $table = 'artikel';
+    protected $table = 'article';
 
     protected $fillable = [
         'tajuk',
