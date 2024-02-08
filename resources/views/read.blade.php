@@ -30,7 +30,7 @@
                     <p>{!! $article->content !!}</p>
                 </div><!-- /.blog-post -->
                 
-            <!-- /.blog-post -->
+            <!-- narbar menu -->
                 <nav class="blog-pagination">
                     <a class="btn btn-outline-primary" href="{{route('landing')}}">Kembali</a>
                     @if(Auth::check())
